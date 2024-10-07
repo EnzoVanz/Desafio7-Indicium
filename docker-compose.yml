@@ -6,6 +6,7 @@ services:
 
     volumes:
       - ./airflow:/opt/airflow
+      - ./data:/opt/data
 
     ports:
       - "8080:8080"
